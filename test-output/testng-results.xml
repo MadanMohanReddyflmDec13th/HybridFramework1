@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-30T14:23:50 IST" name="Suite" finished-at="2024-03-30T14:25:38 IST" duration-ms="107872">
+    <groups>
+    </groups>
+    <test started-at="2024-03-30T14:23:50 IST" name="Test" finished-at="2024-03-30T14:25:38 IST" duration-ms="107872">
+      <class name="testscripts.regression.validateSearchUsingHybridPOM">
+        <test-method is-config="true" signature="fileSetUp()[pri:0, instance:testscripts.regression.validateSearchUsingHybridPOM@57a78e3]" started-at="2024-03-30T14:23:50 IST" name="fileSetUp" finished-at="2024-03-30T14:23:51 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.validateSearchUsingHybridPOM@57a78e3]" started-at="2024-03-30T14:23:53 IST" name="setUp" finished-at="2024-03-30T14:24:25 IST" duration-ms="32209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ee5632d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchHotel(java.util.HashMap)[pri:0, instance:testscripts.regression.validateSearchUsingHybridPOM@57a78e3]" started-at="2024-03-30T14:24:25 IST" name="validateSearchHotel" data-provider="getData" finished-at="2024-03-30T14:25:33 IST" duration-ms="68499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Check Out Date=30/03/2024, Adults per Room=2 - Two, Check In Date=29/03/2024, Expected Title1=Adactin.com - Search Hotel, Children per Room=0 - None, Expected Title2=Adactin.com - Select Hotel, Hotels=Hotel Sunshine, Welcome Text=Welcome to Adactin Group of Hotels, password=reyaz123, Room Type=Standard, Number of Rooms=1 - One, username=reyaz0806, Location=Sydney}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchHotel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.validateSearchUsingHybridPOM@57a78e3]" started-at="2024-03-30T14:25:34 IST" name="teardown" finished-at="2024-03-30T14:25:37 IST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.validateSearchUsingHybridPOM@57a78e3]" started-at="2024-03-30T14:25:37 IST" name="closeReports" finished-at="2024-03-30T14:25:38 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- testscripts.regression.validateSearchUsingHybridPOM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
